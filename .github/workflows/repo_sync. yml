@@ -1,7 +1,7 @@
 name: 同步 blackmatrix7
 on:
   schedule:
-    - cron: '0 0-16/4 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:
 jobs:
   repo-sync:
